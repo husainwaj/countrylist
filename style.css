@@ -47,14 +47,12 @@ z-index: 2;
 .btnx{
   height: 40px;
   width: 150px;
-  border-width: 2px;
+  border-width: 0.5px;
   border-style: solid;
   border-color: blue;
   background-color: white;
   color: blue;
   justify-content: right;
-  box-shadow: 1px 1px;
-  box-shadow: blue;
   font-family: Arial;
   box-sizing: border-box;
   margin-right: 5px;
@@ -63,28 +61,24 @@ z-index: 2;
 .btny{
 height: 40px;
 width: 150px;
-border-width: 2px;
+border-width: 0.5px;
 border-style: solid;
 border-color: blue;
 background-color: white;
 color: blue;
 justify-content: right;
-box-shadow: 1px 1px;
-box-shadow: blue;
+
 font-family: Arial;
 box-sizing: border-box;
 }
 .img {
 width: 180px;
 height: 135px;
-max-width: 6cm;
-padding-top: 10px; 
-padding-right: 5px; 
-padding-left: 12px; 
+max-width: 8cm;
 }
 .img_flag {
 width: 400px;
-height: 360px;
+height: 400px;
 }
 .neighbour_img{
 margin: 18px;
