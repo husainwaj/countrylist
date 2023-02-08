@@ -1,72 +1,102 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+.cardx{
+  width: 18rem;
 }
-body{
-    background-color: aqua;
+.card {
+  height: 150px;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  
 }
-.container{
-    background-color: aliceblue;
-    width: 40vw;
-    max-width: 20 em;
-    padding: 3em 2.5em;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left:50%;
-    
+.paddingx{
+margin-left: 40px;
 }
-.search{
-    display:grid;
-grid-template-columns: 9fr 3fr;
-    gap: 1.2em;
+.paddingy{
+margin: 15px 30px;
+}
 
+.center{
+  margin-left: 27%;
 }
-.search button{
-    font-size: 1 em;
-    background-color: aqua;
-    color: aliceblue;
-    padding: 0.8em 0;
-    border: none;
-    
+
+.custom-search {
+position: relative;
+width: 300px;
 }
-.search input{
-    font-size: 1em;
-    padding: 0 0.62em;
-    border: none;
-    border-bottom: 2px solid aqua;
+.custom-search-input {
+width: 100%;
+border: 1px solid #ccc;
+padding: 10px 100px 10px 20px; 
+line-height: 1;
+outline: none;
 }
-.button {
-    border: none;
-    padding-bottom: 20px;
-    color: white;
-    padding: 10px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    margin: 4px 2px;
-   
-  }
-.button1 {
-    background-color: white; 
-    color: #2909de; 
-    border: 2px solid #2909de;
-  }
-  
-  .button1:hover {
-    background-color: #2909de;
-    color: white;
-  }
-  
-  .button2 {
-    background-color: white; 
-    color: #2909de; 
-    border: 2px solid#2909de;
-  }
-  
-  .button2:hover {
-    background-color: #2909de;
-    color: white;
-  }
+.custom-search-botton {
+position: absolute;
+right: 3px; 
+top: 3px;
+bottom: 3px;
+border: 0;
+background: white;
+color: black;
+outline: none;
+margin: 0;
+padding: 0 10px;
+border-radius: 100px;
+z-index: 2;
+}
+.btnx{
+  height: 40px;
+  width: 150px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+  background-color: white;
+  color: blue;
+  justify-content: right;
+  box-shadow: 1px 1px;
+  box-shadow: blue;
+  font-family: Arial;
+  box-sizing: border-box;
+  margin-right: 5px;
+ 
+}
+.btny{
+height: 40px;
+width: 150px;
+border-width: 2px;
+border-style: solid;
+border-color: blue;
+background-color: white;
+color: blue;
+justify-content: right;
+box-shadow: 1px 1px;
+box-shadow: blue;
+font-family: Arial;
+box-sizing: border-box;
+}
+.img {
+width: 180px;
+height: 135px;
+max-width: 6cm;
+padding-top: 10px; 
+padding-right: 5px; 
+padding-left: 12px; 
+}
+.img_flag {
+width: 400px;
+height: 360px;
+}
+.neighbour_img{
+margin: 18px;
+width: 270px;
+height: 160px;
+border: 1px solid gainsboro; 
+padding: 0;
+}
+.nc{
+border: .5px solid gray;
+padding: 0;
+margin-left: 8.5em;
+margin-right: 8.5em;
+width: 58rem
+}
